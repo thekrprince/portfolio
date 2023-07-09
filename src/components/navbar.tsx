@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function NavBar() {
   return (
-    <header className="flex justify-between items-center m-2">
+    <header className="flex justify-between items-center m-4">
       <h4>KP</h4>
       <nav className="navbar">
         <ul className="flex items-center text-sm">

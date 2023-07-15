@@ -1,0 +1,1 @@
+export const NAV_ITEMS = ["Feed", "About", "Blog", "Projects"];

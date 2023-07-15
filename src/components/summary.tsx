@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Summary() {
   return (
-    <section className="flex flex-col items-center p-4">
+    <section className="flex flex-col items-center p-4 bg-stone-900 rounded-2xl">
       <Image src="/pfp.png" alt="my-pic" width="84" height="84" />
       <h2 className="m-2 sm:m-3 text-4xl font-bold">Hi, This is Prince </h2>
       <p className="m-2">

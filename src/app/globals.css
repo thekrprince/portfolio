@@ -25,3 +25,13 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+::selection {
+  color: greenyellow;
+  background: gray;
+}
+
+/* NavBar Style */
+.navItem:hover {
+  background: rgba(255, 255, 255, 0.2);
+}

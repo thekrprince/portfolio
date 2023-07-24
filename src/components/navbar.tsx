@@ -4,8 +4,8 @@ import { NAV_ITEMS } from "@/constants";
 import About from "./about";
 import { NavValues } from "@/types";
 import Feed from "./feed";
-import Blog from "./blog";
 import Projects from "./projects";
+import Content from "./content";
 
 export default function NavBar() {
   const [navActiveClass, setNavActiveClass] = useState<string>(NAV_ITEMS[0]);
@@ -37,7 +37,7 @@ export default function NavBar() {
       </nav>
       {navActiveClass === NavValues.FEED && <Feed />}
       {navActiveClass === NavValues.ABOUT && <About />}
-      {navActiveClass === NavValues.BLOG && <Blog />}
+      {navActiveClass === NavValues.CONTENT && <Content />}
       {navActiveClass === NavValues.PROJECTS && <Projects />}
     </>
   );

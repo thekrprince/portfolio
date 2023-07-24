@@ -1,13 +1,13 @@
 export enum NavValues {
     FEED = "Feed",
     ABOUT = "About",
-    BLOG = "Blog",
+    CONTENT = "Content",
     PROJECTS = "Projects"
 }
 
 export interface NavItemType {
     FEED: "Feed",
     ABOUT: "About",
-    BLOG: "Blog",
+    CONTENT: "Content",
     PROJECTS: "Projects"
 }

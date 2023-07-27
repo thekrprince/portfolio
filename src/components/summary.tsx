@@ -4,7 +4,7 @@ export default function Summary() {
   return (
     <section className="flex flex-col p-8 bg-stone-900 rounded-2xl">
       <Image
-        src="/pfp.png"
+        src="/images/pfp.png"
         alt="my-pic"
         width="84"
         height="84"

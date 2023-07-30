@@ -9,7 +9,7 @@ export default function Projects() {
         return (
           <div
             key={idx}
-            className="flex flex-col items-center shadow-md m-4 bg-stone-800"
+            className="flex flex-col items-center shadow-md m-4 border-2 border-rose-500"
           >
             <Image
               src={project.image_url}
@@ -17,14 +17,22 @@ export default function Projects() {
               width="350"
               height="100"
             />
-            <div className="p-2">
-              <h2>{project.title}</h2>
+            <div className="p-4">
+              <h2 className="text-2xl font-bold mb-2">{project.title}</h2>
               <p>{project.description}</p>
-              <p className="flex justify-between text-blue-600">
-                <a href={project.demo_link} target="_blank">
+              <p className="flex justify-between mt-2">
+                <a
+                  href={project.demo_link}
+                  target="_blank"
+                  className="project-link text-pink-400"
+                >
                   Live Link
                 </a>
-                <a href={project.github_url} target="_blank">
+                <a
+                  href={project.github_url}
+                  target="_blank"
+                  className="project-link"
+                >
                   GitHub Link
                 </a>
               </p>

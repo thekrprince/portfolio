@@ -35,3 +35,12 @@ body {
 .navItem:hover {
   background: rgba(102, 102, 102, 0.2);
 }
+
+/* Projects Section Styling */
+.project-link {
+  color: #f472b6;
+}
+
+.project-link:hover {
+  text-decoration: 3px underline #f472b6;
+}

@@ -36,6 +36,11 @@ body {
   background: rgba(102, 102, 102, 0.2);
 }
 
+/* Content Section Styling */
+.blog-links:hover {
+  text-decoration: 3px underline #db2777;
+}
+
 /* Projects Section Styling */
 .project-link {
   color: #f472b6;

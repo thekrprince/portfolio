@@ -27,12 +27,15 @@ export default function About() {
         </figcaption>
       </figure>
       <p className="mt-6">
+        I&#39;ve been fortunate to work with some top-notch companies such as
+        Walmart, Fractal Analytics, Wells Fargo, and SAP. I&#39;m currently
+        working at Walmart as a Frontend Developer where I build web
+        applications for Walmart Pharmacy division.
+      </p>
+      <p className="mt-6">
         Apart than coding, I love to Travel, Riding Bike, Cooking, Playing
         Indoor-Outdoor games & trying different experiences.
       </p>
-      <div className="mt-8">
-        <h3 className="text-2xl font-bold">Companies I have worked for</h3>
-      </div>
     </div>
   );
 }

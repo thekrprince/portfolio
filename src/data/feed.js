@@ -8,20 +8,17 @@ export const feedData = [
     article: {
       heading: "Hello World!",
       description:
-        "This is my site where I have added all the information about my tech journey and keep it updated with what Im upto.",
+        "This is my site where I have added all the information about my tech journey and will keep documenting and updated with what Im upto.",
     },
   },
   {
-    title: "Prince ⭐",
-    date: "2 Aug 2023",
-    feeling: "Feelin' great",
+    title: "Prince creates a mini project⚡",
+    date: "15 Jul 2023",
+    feeling: "👨‍💻 Feelin' techie",
     iconImgUrl: "/images/pfp.png",
-    // photoUrl: "/images/IMG_0371.jpg",
     videoUrl: "/images/Dynamic-Square.mp4",
     article: {
-      heading: "Hello World!",
-      description:
-        "This is my site where I have added all the information about my tech journey and keep it updated with what Im upto.",
+      description: "I know it's a small project but wanted to share it here!",
     },
   },
 ];

@@ -18,22 +18,24 @@ export default function Card() {
                 {fd.feeling}
               </div>
               <section>
-                <h2 className="text-2xl">{fd.article.heading}</h2>
+                {fd.article.heading && (
+                  <h2 className="text-2xl font-bold">{fd.article.heading}</h2>
+                )}
                 <p>{fd.article.description}</p>
               </section>
               {fd.photoUrl && (
                 <Image
                   src={fd.photoUrl}
                   alt="Prince at workstation"
-                  width="964"
-                  height="631"
+                  width="615"
+                  height="412"
                   className="my-2 rounded-lg"
                 />
               )}
               {fd.videoUrl && (
                 <video
                   width="630"
-                  height="413"
+                  height="412"
                   controls
                   className="border border-pink-100 my-2"
                 >

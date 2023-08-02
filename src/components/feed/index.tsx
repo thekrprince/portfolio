@@ -1,3 +1,9 @@
+import Card from "./feed-card";
+
 export default function Feed() {
-  return <div>Feed</div>;
+  return (
+    <div>
+      <Card />
+    </div>
+  );
 }

@@ -49,3 +49,9 @@ body {
 .project-link:hover {
   text-decoration: 3px underline #f472b6;
 }
+
+/* Footer Section Styling */
+.social-icon-link:hover {
+  background: rgb(92, 92, 92);
+  border-radius: 0.5rem;
+}

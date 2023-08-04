@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer>
+    <footer className="mt-8">
       <section className="flex justify-center">
         <Link
           href="https://twitter.com/TheKrPrince"

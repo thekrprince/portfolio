@@ -3,7 +3,6 @@
 import Footer from "@/components/footer";
 import NavBar from "@/components/navbar";
 import Summary from "@/components/summary";
-import WorkProfile from "@/components/work-profile";
 
 export default function Home() {
   return (

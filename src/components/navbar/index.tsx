@@ -1,11 +1,11 @@
 import Link from "next/link";
 import { useState } from "react";
 import { NAV_ITEMS } from "@/constants";
-import About from "./about";
+import About from "../about";
 import { NavValues } from "@/types";
-import Feed from "./feed";
-import Projects from "./projects";
-import Content from "./content";
+import Feed from "../feed";
+import Projects from "../projects";
+import Content from "../content";
 
 export default function NavBar() {
   const [navActiveClass, setNavActiveClass] = useState<string>(NAV_ITEMS[0]);

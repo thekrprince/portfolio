@@ -27,8 +27,7 @@ body {
 }
 
 ::selection {
-  color: greenyellow;
-  background: gray;
+  background: #db2777;
 }
 
 /* NavBar Style */

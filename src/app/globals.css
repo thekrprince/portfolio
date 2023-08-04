@@ -36,6 +36,11 @@ body {
   background: rgba(102, 102, 102, 0.2);
 }
 
+/* Feed styling */
+.feed-card:hover {
+  background-color: #262626;
+}
+
 /* Content Section Styling */
 .blog-links:hover {
   text-decoration: 3px underline #db2777;

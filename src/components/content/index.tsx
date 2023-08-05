@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { blogs } from "../../data/blogs";
 
 export default function Content() {
@@ -15,13 +16,13 @@ export default function Content() {
         {blogs.map((blog, idx) => {
           return (
             <div key={idx} className="my-2">
-              <a
+              <Link
                 href={blog.link}
                 target="_blank"
                 className="text-pink-600 blog-links"
               >
                 {blog.title}
-              </a>
+              </Link>
               <p className="opacity-75">{blog.date}</p>
             </div>
           );

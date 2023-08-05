@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { blogs } from "../../data/blogs";
+import { talksData } from "../../data/talks";
 
 export default function Content() {
   return (
@@ -10,6 +11,22 @@ export default function Content() {
       </p>
       <section className="mb-8">
         <h2 className="text-2xl font-bold">Talks</h2>
+        {talksData.map((talk, idx) => {
+          return (
+            <div key={idx} className="my-2">
+              <Link
+                href={talk.slideLink}
+                target="_blank"
+                className="text-pink-600 blog-links"
+              >
+                {talk.title}
+              </Link>
+              <p className="opacity-75">
+                {`${talk.meetupName} - ${talk.date}`}
+              </p>
+            </div>
+          );
+        })}
       </section>
       <section className="mb-8">
         <h2 className="text-2xl font-bold">Blogs</h2>

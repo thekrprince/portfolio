@@ -8,13 +8,13 @@ export default function Summary() {
         <Image
           src="/images/pfp.png"
           alt="my-pic"
-          width="84"
-          height="84"
-          className="border-4 border-decoration-pink-500 rounded-full"
+          width="100"
+          height="100"
+          className="md:w-32 border-4 border-decoration-pink-500 rounded-full"
         />
         <Link
           href="https://twitter.com/intent/follow?screen_name=TheKrPrince"
-          className="bg-pink-600 w-28 h-10 px-4 py-2 box-border rounded-full flex gap-x-1 justify-center self-end follow-btn hover:border-4 hover:py-1 hover:px-3"
+          className="bg-pink-600 w-28 h-10 box-border rounded-full font-bold flex gap-x-1 justify-center items-center self-end follow-btn hover:border-4"
           target="_blank"
         >
           <span>Follow</span>

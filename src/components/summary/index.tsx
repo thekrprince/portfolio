@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Summary() {
   return (
-    <section className="flex flex-col p-8 bg-stone-900 rounded-2xl">
+    <section className="flex flex-col p-8 bg-gray-300 dark:bg-stone-900 rounded-2xl">
       <div className="flex justify-between items-center">
         <Image
           src="/images/pfp.png"
@@ -14,7 +14,7 @@ export default function Summary() {
         />
         <Link
           href="https://twitter.com/intent/follow?screen_name=TheKrPrince"
-          className="bg-pink-600 w-28 h-10 box-border rounded-full font-bold flex gap-x-1 justify-center items-center self-end follow-btn hover:border-4"
+          className="bg-pink-600 w-28 h-10 box-border rounded-full font-bold flex gap-x-1 justify-center items-center self-end follow-btn hover:border-4 border-black dark:border-white"
           target="_blank"
         >
           <span>Follow</span>

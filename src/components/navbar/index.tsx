@@ -6,7 +6,6 @@ import { NavValues } from "@/types";
 import Feed from "../feed";
 import Projects from "../projects";
 import Content from "../content";
-import "./navbar.css";
 
 export default function NavBar() {
   const [navActiveClass, setNavActiveClass] = useState<string>(NAV_ITEMS[0]);
@@ -17,7 +16,7 @@ export default function NavBar() {
 
   return (
     <>
-      <nav className="navbar">
+      <nav>
         <ul className="my-3 flex justify-center items-center font-bold">
           {NAV_ITEMS.map((navItem) => {
             return (
@@ -25,7 +24,7 @@ export default function NavBar() {
                 href="/"
                 key={navItem}
                 onClick={() => navActiveHandler(navItem)}
-                className={`w-1/4 text-center navItem py-2 ${
+                className={`w-1/4 text-center navItem py-2 hover:bg-gray-800 ${
                   navActiveClass === navItem &&
                   "underline underline-offset-8 decoration-4 decoration-pink-500"
                 }`}

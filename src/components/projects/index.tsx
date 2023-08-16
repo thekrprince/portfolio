@@ -24,14 +24,14 @@ export default function Projects() {
                 <a
                   href={project.demo_link}
                   target="_blank"
-                  className="project-link text-pink-400"
+                  className="text-pink-400 hover:underline hover:decoration-2 hover:underline-offset-2"
                 >
                   Live Link
                 </a>
                 <a
                   href={project.github_url}
                   target="_blank"
-                  className="project-link"
+                  className="text-pink-400 hover:underline hover:decoration-2 hover:underline-offset-2"
                 >
                   GitHub Link
                 </a>

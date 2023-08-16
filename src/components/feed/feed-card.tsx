@@ -6,7 +6,10 @@ export default function Card() {
     <>
       {feedData.map((fd, idx) => {
         return (
-          <div key={idx} className="flex p-4 mb-4 rounded-lg feed-card">
+          <div
+            key={idx}
+            className="flex p-4 mb-4 rounded-lg hover:bg-neutral-900"
+          >
             <div>
               <Image src={fd.iconImgUrl} alt="" height="50" width="50" />
             </div>

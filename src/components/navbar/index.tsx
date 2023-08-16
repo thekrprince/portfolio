@@ -22,17 +22,16 @@ export default function NavBar() {
         <ul className="my-3 flex justify-center items-center font-bold">
           {NAV_ITEMS.map((navItem) => {
             return (
-              <Link
-                href="/"
+              <li
                 key={navItem}
                 onClick={() => navActiveHandler(navItem)}
-                className={`w-1/4 text-center navItem py-2 hover:bg-stone-100 dark:hover:bg-gray-800 ${
+                className={`w-1/4 text-center navItem py-2 hover:bg-stone-100 dark:hover:bg-gray-800 hover:cursor-pointer ${
                   navActiveClass === navItem &&
                   "underline underline-offset-8 decoration-4 decoration-pink-500"
                 }`}
               >
-                <li>{navItem}</li>
-              </Link>
+                <Link href="/">{navItem}</Link>
+              </li>
             );
           })}
         </ul>

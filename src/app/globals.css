@@ -30,36 +30,6 @@ body {
   background: #db2777;
 }
 
-/* NavBar Style */
-.navItem:hover {
-  background: rgba(102, 102, 102, 0.2);
-}
-
-/* Feed styling */
-.feed-card:hover {
-  background-color: #262626;
-}
-
-/* Content Section Styling */
-.blog-links:hover {
-  text-decoration: 3px underline #db2777;
-}
-
-/* Projects Section Styling */
-.project-link {
-  color: #f472b6;
-}
-
-.project-link:hover {
-  text-decoration: 3px underline #f472b6;
-}
-
-/* Footer Section Styling */
-.social-icon-link:hover {
-  background: rgb(92, 92, 92);
-  border-radius: 0.5rem;
-}
-
 /* Scrollbar Styling */
 body::-webkit-scrollbar {
   width: 0.7em;

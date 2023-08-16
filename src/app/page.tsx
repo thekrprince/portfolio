@@ -1,8 +1,12 @@
-"use client";
-
 import Footer from "@/components/footer";
 import NavBar from "@/components/navbar";
 import Summary from "@/components/summary";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "KP",
+  description: "This is portfolio of Prince",
+};
 
 export default function Home() {
   return (

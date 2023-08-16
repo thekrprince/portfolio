@@ -8,11 +8,6 @@ import { useState } from "react";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export const metadata: Metadata = {
-  title: "KP",
-  description: "This is portfolio of Prince",
-};
-
 export default function RootLayout({
   children,
 }: {

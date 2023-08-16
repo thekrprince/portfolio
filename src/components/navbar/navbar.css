@@ -1,0 +1,4 @@
+/* NavBar Style */
+.navItem:hover {
+  background: rgba(102, 102, 102, 0.2);
+}

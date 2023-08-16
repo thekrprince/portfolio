@@ -6,6 +6,7 @@ import { NavValues } from "@/types";
 import Feed from "../feed";
 import Projects from "../projects";
 import Content from "../content";
+import "./navbar.css";
 
 export default function NavBar() {
   const [navActiveClass, setNavActiveClass] = useState<string>(NAV_ITEMS[0]);

@@ -17,7 +17,7 @@ export default function Content() {
               <Link
                 href={talk.slideLink}
                 target="_blank"
-                className="text-pink-600 blog-links"
+                className="text-pink-600 hover:underline hover:decoration-2"
               >
                 {talk.title}
               </Link>
@@ -36,7 +36,7 @@ export default function Content() {
               <Link
                 href={blog.link}
                 target="_blank"
-                className="text-pink-600 blog-links"
+                className="text-pink-600 hover:underline hover:decoration-2"
               >
                 {blog.title}
               </Link>

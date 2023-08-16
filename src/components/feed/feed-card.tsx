@@ -8,7 +8,7 @@ export default function Card() {
         return (
           <div
             key={idx}
-            className="flex p-4 mb-4 rounded-lg hover:bg-neutral-900"
+            className="flex p-4 mb-4 rounded-lg hover:bg-zinc-100 dark:hover:bg-neutral-900"
           >
             <div>
               <Image src={fd.iconImgUrl} alt="" height="50" width="50" />
@@ -17,7 +17,7 @@ export default function Card() {
               <span className="font-bold">{fd.title}</span>
               <span className="mx-2">•</span>
               <span className="text-sm opacity-75">{fd.date}</span>
-              <div className="my-1 p-2 bg-gray-500 w-fit rounded-full text-xs font-bold">
+              <div className="my-1 p-2 bg-gray-300 dark:bg-gray-600 w-fit rounded-full text-xs font-bold">
                 {fd.feeling}
               </div>
               <section>

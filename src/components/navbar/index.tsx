@@ -24,7 +24,7 @@ export default function NavBar() {
                 href="/"
                 key={navItem}
                 onClick={() => navActiveHandler(navItem)}
-                className={`w-1/4 text-center navItem py-2 hover:bg-gray-800 ${
+                className={`w-1/4 text-center navItem py-2 hover:bg-stone-100 dark:hover:bg-gray-800 ${
                   navActiveClass === navItem &&
                   "underline underline-offset-8 decoration-4 decoration-pink-500"
                 }`}

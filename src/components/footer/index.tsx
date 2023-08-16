@@ -7,7 +7,7 @@ export default function Footer() {
         <Link
           href="https://twitter.com/TheKrPrince"
           target="_blank"
-          className="p-2 hover:bg-gray-700 hover:rounded-lg"
+          className="p-2 hover:bg-zinc-300 dark:hover:bg-gray-700 hover:rounded-lg"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -24,7 +24,7 @@ export default function Footer() {
         <Link
           href="https://github.com/thekrprince/"
           target="_blank"
-          className="p-2 hover:bg-gray-700 hover:rounded-lg"
+          className="p-2 hover:bg-zinc-300 dark:hover:bg-gray-700 hover:rounded-lg"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -41,7 +41,7 @@ export default function Footer() {
         <Link
           href="https://www.linkedin.com/in/thekrprince/"
           target="_blank"
-          className="p-2 hover:bg-gray-700 hover:rounded-lg"
+          className="p-2 hover:bg-zinc-300 dark:hover:bg-gray-700 hover:rounded-lg"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -58,7 +58,7 @@ export default function Footer() {
         <Link
           href="https://www.instagram.com/kr_prnc/"
           target="_blank"
-          className="p-2 hover:bg-gray-700 hover:rounded-lg"
+          className="p-2 hover:bg-zinc-300 dark:hover:bg-gray-700 hover:rounded-lg"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"

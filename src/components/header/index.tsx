@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Dispatch, SetStateAction } from "react";
 
 export default function Header({
@@ -17,9 +18,14 @@ export default function Header({
 
   return (
     <header className="flex justify-between items-center m-4">
-      <h2>KP</h2>
+      <Link
+        href="https://thekrprince.com"
+        className="text-2xl font-bold box-border p-1 hover:bg-gray-400 hover:bg-opacity-50 rounded-md"
+      >
+        KP
+      </Link>
       <button
-        className="px-3"
+        className="px-3 hover:bg-gray-400 p-1 hover:bg-opacity-50 rounded-md"
         onClick={() => themeHandler(theme)}
         title={`Set theme to ${theme === "dark" ? "light" : "dark"}`}
       >

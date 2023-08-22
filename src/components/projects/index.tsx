@@ -9,7 +9,7 @@ export default function Projects() {
         return (
           <div
             key={idx}
-            className="flex flex-col items-center shadow-md m-4 border-2 border-rose-500"
+            className="flex flex-col items-center m-4 border-2 border-rose-500 rounded-lg"
           >
             <Image
               src={project.image_url}

@@ -58,7 +58,10 @@ export default function Summary() {
           </svg>
           <span className="ml-1">Available</span>
         </span>
-        <span className="flex mr-2 md:mr-4">
+        <Link
+          href="/links"
+          className="flex mr-2 md:mr-4 text-pink-500 hover:underline hover:decoration-4 hover:decoration-pink-500"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -74,7 +77,7 @@ export default function Summary() {
             />
           </svg>
           <span className="ml-1">/links</span>
-        </span>
+        </Link>
         <span className="flex mr-2 md:mr-4">
           <svg
             xmlns="http://www.w3.org/2000/svg"

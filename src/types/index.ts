@@ -11,3 +11,8 @@ export interface NavItemType {
     CONTENT: "Content",
     PROJECTS: "Projects"
 }
+
+export interface LinkCardTypes {
+    url: string,
+    title: string,
+}

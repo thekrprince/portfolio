@@ -3,14 +3,14 @@ import Link from "next/link";
 
 export default function Summary() {
   return (
-    <section className="flex flex-col p-8 bg-gray-300 dark:bg-stone-900 rounded-2xl">
+    <section className="flex flex-col p-8 bg-gray-50 dark:bg-stone-900 rounded-2xl">
       <div className="flex justify-between items-center">
         <Image
           src="/images/pfp.png"
           alt="my-pic"
           width="100"
           height="100"
-          className="md:w-32 border-4 border-decoration-pink-500 rounded-full"
+          className="md:w-32 border-4 border-gray-800 rounded-full dark:border-slate-50"
         />
         <Link
           href="https://twitter.com/intent/follow?screen_name=TheKrPrince"

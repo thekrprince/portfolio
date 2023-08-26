@@ -4,7 +4,7 @@ import Summary from "@/components/summary";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "KP",
+  title: "Prince - Dev",
   description: "This is portfolio of Prince",
 };
 

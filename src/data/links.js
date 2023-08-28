@@ -1,4 +1,18 @@
 export const links = {
+  personalLinks: [
+    {
+      url: "https://thekrprince.com",
+      title: "Website",
+    },
+    {
+      url: "mailto:princekr700@gmail.com",
+      title: "Email",
+    },
+    {
+      url: "/resume/resume.pdf",
+      title: "Resume",
+    },
+  ],
   socialMedia: [
     {
       url: "https://twitter.com/TheKrPrince",
@@ -15,13 +29,13 @@ export const links = {
       title: "Instagram",
     },
   ],
-  code: [
+  codeSiteLinks: [
     {
       url: "https://github.com/thekrprince",
       title: "GitHub",
     },
   ],
-  writing: [
+  publicationLinks: [
     {
       url: "https://dev.to/thekrprince",
       title: "DEV",

@@ -17,7 +17,7 @@ export default function Header({
   };
 
   return (
-    <header className="flex justify-between items-center m-4">
+    <header className="flex justify-between items-center p-4 sticky z-10 top-0 backdrop-blur">
       <Link
         href="https://thekrprince.com"
         className="text-2xl font-bold box-border p-1 hover:bg-gray-400 hover:bg-opacity-50 rounded-md"

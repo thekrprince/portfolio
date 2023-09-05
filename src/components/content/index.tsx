@@ -4,7 +4,7 @@ import { talksData } from "../../data/talks";
 
 export default function Content() {
   return (
-    <div className="mt-8">
+    <div className="mt-8 px-4">
       <p className="mb-8">
         As much as I like to learn new technologies and read about it. Love to
         share the knowledge as well through my content.

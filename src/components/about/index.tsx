@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function About() {
   return (
-    <div className="mt-8">
+    <div className="mt-8 px-4">
       <h2 className="text-2xl font-bold">Bonjour! 👋</h2>
       <p className="mt-2">
         I&#39;m Prince. I am a Software Developer proficient in developing Web

@@ -4,7 +4,7 @@ export const feedData = [
     date: "2 Aug 2023",
     feeling: "😎 Feelin' great",
     iconImgUrl: "/images/pfp.png",
-    photoUrl: "/images/me-at-home-workstation.jpg",
+    photoUrl: "/images/me-at-workstation.jpg",
     article: {
       heading: "Hello World!",
       description:

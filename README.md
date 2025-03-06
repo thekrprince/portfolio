@@ -1,6 +1,6 @@
 # Portfolio
 
-Created the new portfolio which has almost all the professional details about me.
+Created my new portfolio containing all the professional details about me.
 
 ## Tech Stack
 

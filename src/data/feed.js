@@ -8,7 +8,7 @@ export const feedData = [
     article: {
       heading: "Hello World!",
       description:
-        "This is my site where I have added all the information about my tech journey and will keep documenting and updated with what Im upto.",
+        "This is my site where I have added all the information about my tech journey and will keep documenting and updated with what I'm upto.",
     },
   },
   {
@@ -18,7 +18,8 @@ export const feedData = [
     iconImgUrl: "/images/pfp.png",
     videoUrl: "/images/Dynamic-Square.mp4",
     article: {
-      description: "I know it's a small project but wanted to share it here!",
+      description:
+        "It's a small project which was asked to me in one of the interviews!",
     },
   },
 ];

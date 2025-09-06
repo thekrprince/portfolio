@@ -8,7 +8,7 @@ export default function Card() {
         return (
           <div
             key={idx}
-            className="flex p-4 mb-4 rounded-lg hover:bg-zinc-100 dark:hover:bg-neutral-900"
+            className="flex p-4 mb-4 rounded-lg hover:bg-zinc-100 hover:text-gray-50 dark:hover:bg-neutral-900"
           >
             <div>
               <Image src={fd.iconImgUrl} alt="" height="50" width="50" />

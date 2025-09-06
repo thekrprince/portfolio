@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Summary() {
   return (
-    <section className="flex flex-col p-8 bg-gray-50 dark:bg-stone-900 rounded-2xl">
+    <section className="flex flex-col p-8 bg-gray-50 dark:bg-stone-900 rounded-2xl text-gray-50">
       <div className="flex justify-between items-center">
         <Image
           src="/images/pfp.png"
